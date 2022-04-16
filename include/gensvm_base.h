@@ -73,7 +73,7 @@ struct GenData {
 	double *RAW;
 	///< augmented raw data matrix
 	double *Sigma;
-	///< eigenvalues from the reduced eigendecomposition
+	///< 从简化的特征分解得到的特征值
 	KernelType kerneltype;
 	///< kerneltype used to generate the kernel corresponding to the data 
 	///< in Z
